@@ -94,6 +94,7 @@ a:link {
     justify-content: center;
     align-items: center;
     gap: 35px;
+    margin-bottom: 40px;
 }
 
 .image-and-text {
@@ -109,4 +110,30 @@ a:link {
     border-radius: 6px;
     margin-bottom: 5px;
 }
+
+/* Quote */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 375px;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 25px;
+}
+
+.quote-tag {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+
 
