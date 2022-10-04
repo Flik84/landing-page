@@ -79,14 +79,13 @@ a:link {
     font-size: 36px;
     font-weight: 800px;
     color: #1f2937;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px 0;
 }
 
 .images-and-text {
@@ -94,7 +93,7 @@ a:link {
     justify-content: center;
     align-items: center;
     gap: 35px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .image-and-text {
@@ -135,5 +134,32 @@ a:link {
     padding-right: 50px;
 }
 
+/* Blue Call to Action */
 
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7E8;
+    padding: 70px 140px;
+    border-radius: 10px;
+    margin: 40px 80px;
+    gap: 130px;
+}
 
+.action-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.its-time {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up-2 {
+    margin-top: 5px;
+    border: 2px solid white;
+}
