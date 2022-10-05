@@ -13,6 +13,7 @@
     background-color: #1f2937;
     padding-top: 10px;
     align-items: center;
+    gap: 60px;
 }
 
 .nav-logo {
@@ -34,7 +35,7 @@ a:link {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 50px;
 }
 
 .top-left {
@@ -74,12 +75,16 @@ a:link {
     padding: 5px 20px;
 }
 
+a:visited {
+    color:antiquewhite;
+}
+
 /* Middle of website */
 
 .main-heading {
     font-size: 36px;
     font-weight: 800px;
-    color: #1f2937;
+    color: #E5E7E8;
     margin: 40px 0;
 }
 
@@ -87,28 +92,42 @@ a:link {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(90, 68, 59);
 }
 
 .images-and-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 60px;
     margin-bottom: 80px;
 }
 
 .image-and-text {
     display: flex;
     flex-direction: column;
-    flex: 0 0 150px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex: 0 0 250px;
     font-size: 17px;
+    color: #E5E7E8;
 }
 
 .main-image {
-    border: 2px solid #3882F6;
+    border: 3px solid #000;
     border-radius: 6px;
     margin-bottom: 5px;
+}
+
+.main-image:hover {
+    border: 5px solid rgb(189, 42, 42);
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+a:visited {
+    color:antiquewhite;
 }
 
 /* Quote */
